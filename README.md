@@ -53,3 +53,23 @@ Anushka Pawar
 | 11 | Practical 11 | [P11](P11/) |
 | 12 | Practical 12 | [P12](P12/) |
 | 13 | Practical 13 | [P13](P13/) |
+
+---
+
+## Practical Index (P1–P13)
+
+| Sr. No. | Practical | Folder |
+|---|---|---|
+| 1 | Practical 1 | [P1](P1/) |
+| 2 | Practical 2 | [P2](P2/) |
+| 3 | Practical 3 | [P3](P3/) |
+| 4 | Practical 4 | [P4](P4/) |
+| 5 | Practical 5 | [P5](P5/) |
+| 6 | Practical 6 | [P6](P6/) |
+| 7 | Practical 7 | [P7](P7/) |
+| 8 | Practical 8 | [P8](P8/) |
+| 9 | Practical 9 | [P9](P9/) |
+| 10 | Practical 10 | [P10](P10/) |
+| 11 | Practical 11 | [P11](P11/) |
+| 12 | Practical 12 | [P12](P12/) |
+| 13 | Practical 13 | [P13](P13/) |
