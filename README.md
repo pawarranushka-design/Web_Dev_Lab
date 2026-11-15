@@ -1,0 +1,35 @@
+# Web Development Lab - Anushka Pawar
+
+This repository contains my Bosscoder School Web Development practical assignments.
+
+## Modules and Practicals
+
+### Module 1: Terminal, Git and GitHub
+- P1: Project Folder and Terminal Navigation
+- P2: Portfolio Repository and Initial Commit
+- P3: Feature Branch Git Workflow
+- P4: README and Version Tags
+
+### Module 2: HTML and CSS Foundations
+- P5: Semantic Bio Page
+- P6: Semantic Portfolio Structure
+- P7: CSS Design Tokens and Typography
+- P8: Sticky Navbar and Card Overlay
+- P9: Responsive Navbar and Flexbox Card Grid
+
+### Module 3: CSS Layout Systems
+- P10: Advanced Flexbox Header and Footer
+- P11: Newspaper Layout using CSS Grid
+- P12: Advanced Portfolio Projects Grid
+- P13: Choosing Between Flexbox and CSS Grid
+
+## Technologies Used
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Git
+- GitHub
+
+## Author
+Anushka Pawar

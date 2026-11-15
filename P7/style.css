@@ -1,0 +1,44 @@
+
+:root {
+    --primary-color: #243447;
+    --secondary-color: #e8f4ff;
+    --text-color: #333333;
+    --font-main: Arial, sans-serif;
+    --heading-size: 32px;
+    --body-size: 16px;
+    --spacing: 20px;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    font-size: var(--body-size);
+    margin: 0;
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: var(--spacing);
+}
+
+h1 {
+    font-size: var(--heading-size);
+}
+
+.card {
+    background-color: white;
+    margin: 30px;
+    padding: var(--spacing);
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}

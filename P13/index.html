@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anushka Pawar | Flexbox vs Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- FLEXBOX: Header -->
+  <header class="header">
+    <h2 class="logo">Anushka.</h2>
+
+    <nav class="navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#comparison">Comparison</a>
+    </nav>
+
+    <a href="#contact" class="contact-btn">Contact Me</a>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <p class="eyebrow">DESIGN • CODE • CREATE</p>
+      <h1>Building Ideas Into Experiences.</h1>
+      <p>
+        I am Anushka Pawar, a Computer Science student
+        exploring web development, AI and creative technology.
+      </p>
+      <a href="#projects" class="hero-btn">Explore My Work</a>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About This Practical</h2>
+      <p>
+        This webpage demonstrates the difference between
+        CSS Flexbox and CSS Grid. Both are powerful layout
+        systems used to create responsive websites.
+      </p>
+    </section>
+
+    <!-- CSS GRID: Project Gallery -->
+    <section class="projects" id="projects">
+      <div class="section-title">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card card-large">
+          <span>01 / FEATURED</span>
+          <h3>Personal Portfolio</h3>
+          <p>A website showcasing my skills and learning journey.</p>
+        </article>
+
+        <article class="project-card">
+          <span>02 / DESIGN</span>
+          <h3>Web Design</h3>
+          <p>Exploring creative layouts and modern interfaces.</p>
+        </article>
+
+        <article class="project-card">
+          <span>03 / TECHNOLOGY</span>
+          <h3>AI & ML</h3>
+          <p>Learning the fundamentals of intelligent systems.</p>
+        </article>
+
+        <article class="project-card">
+          <span>04 / DEVELOPMENT</span>
+          <h3>Responsive Website</h3>
+          <p>Building websites for different screen sizes.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Flexbox and Grid Comparison -->
+    <section class="comparison" id="comparison">
+      <div class="section-title">
+        <p class="eyebrow">LEARN THE DIFFERENCE</p>
+        <h2>Flexbox vs CSS Grid</h2>
+      </div>
+
+      <div class="comparison-container">
+
+        <article class="comparison-card">
+          <h3>CSS Flexbox</h3>
+          <p class="type">ONE-DIMENSIONAL</p>
+          <ul>
+            <li>Works in a row or column.</li>
+            <li>Ideal for navigation bars.</li>
+            <li>Useful for aligning items.</li>
+            <li>Great for smaller components.</li>
+          </ul>
+        </article>
+
+        <article class="comparison-card grid-card">
+          <h3>CSS Grid</h3>
+          <p class="type">TWO-DIMENSIONAL</p>
+          <ul>
+            <li>Works with rows and columns.</li>
+            <li>Ideal for page layouts.</li>
+            <li>Controls rows and columns together.</li>
+            <li>Great for galleries and dashboards.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Let's Create Something</h2>
+      <p>Keep learning, keep experimenting and keep building.</p>
+      <p>Email: Add your email address here</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <h2>Anushka.</h2>
+    <p>© 2026 Anushka Pawar | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

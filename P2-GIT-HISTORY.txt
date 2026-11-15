@@ -1,0 +1,3 @@
+557772c (HEAD -> main, tag: v1.0) Add project README
+77069d6 (feature/about-section) Add achievements section
+397b3b2 Initial commit - Portfolio project

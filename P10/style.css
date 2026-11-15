@@ -1,0 +1,207 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f3ff;
+  color: #252044;
+  line-height: 1.6;
+}
+
+/* Advanced Flexbox Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 8%;
+  background: #17152e;
+}
+
+.logo {
+  color: #c4b5fd;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.navigation a,
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover,
+.footer-links a:hover {
+  color: #c4b5fd;
+}
+
+.header-btn {
+  background: #c4b5fd;
+  color: #17152e;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 430px;
+  padding: 90px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #252044, #6554a4);
+  color: white;
+}
+
+.intro {
+  color: #d8ccff;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.hero h2 {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+}
+
+.btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #c4b5fd;
+  color: #17152e;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* About Section */
+.about,
+.skills,
+.contact {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.about h2,
+.skills h2,
+.contact h2 {
+  color: #51418b;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Flexbox Skills */
+.skill-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill {
+  flex: 1 1 200px;
+  max-width: 250px;
+  padding: 22px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(35, 25, 75, 0.1);
+  font-weight: bold;
+  color: #6554a4;
+}
+
+/* Advanced Flexbox Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 35px 8%;
+  background: #17152e;
+  color: white;
+}
+
+.footer-brand h2 {
+  color: #c4b5fd;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.copyright {
+  flex-basis: 100%;
+  text-align: center;
+  border-top: 1px solid #514b70;
+  padding-top: 18px;
+  color: #c8c4d8;
+}
+
+/* Responsive Design */
+@media (max-width: 650px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navigation {
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
